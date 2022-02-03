@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Architects Daughter', cursive;
+}
+
+/* Body */
+body{
+  color:rgb(0, 0, 0);
+  background-color: #000000;
+  font-size: 15px;
+}
+
+header{
+  background-color:rgb(41, 151, 142);
+  padding-bottom: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ a{
+   color: rgba(244, 244, 245, 0.938);
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  width: 100px;
+  height: 120;
+  margin: auto;
+}
+.navPrincipal{
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.Logo{
+  width: 125px;
+
+}
+
+.navPrincipal ul{
+  display: flex;
+}
+
+.navPrincipal ul li {
+padding: 10px;
+}
+
+.navPrincipal ul .navMenu{
+  flex: 1;
+  margin-left: 50px;
+}
+
+.navPrincipal ul li a:hover{
+  border-bottom: 3px solid #38a5ad;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.mt-3{
+  margin-top: 5rem !important;
+}
+
+.banner div{
+  height: 90%;
+  width: 100%;
+  background-image: url(../img/Monkeys.gif) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+ 
+  
+}
+
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxH2{
+  margin: 20px;
+  padding: 15px;
+  background-color: rgb(41, 151, 142);
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  
+}
+
+p{
+  font-size: 20px;
+  margin: 20px;
+  padding: 50px;
+  background-color: rgb(41, 151, 142);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+
+}
+
+.gridGroup{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.BandQ{
+  width: 450px;
+  border-radius: 10px;
+  margin: 10px;
+  
+  
+}
+
+
+.video{
+  background-color: rgb(41, 151, 142);
+  border-radius: 15px;
+  padding: 10px;
+  width: 100px;
+  font-size: large;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+footer{
+  margin-top: 10px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
